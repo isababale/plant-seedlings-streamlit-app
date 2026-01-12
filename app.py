@@ -312,8 +312,7 @@ with tab1:
                 data=csv,
                 file_name='seedscout_predictions.csv',
                 mime='text/csv',
-                use_container_width=True
-            )
+                )
             
             st.caption(f"📄 {len(df)} predictions ready")
 
