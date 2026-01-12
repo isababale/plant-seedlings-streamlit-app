@@ -1,10 +1,10 @@
-torch
-torchvision
-streamlit
-pandas
+streamlit==1.31.0
+torch==2.0.1
+torchvision==0.15.2
 numpy
-matplotlib
+pandas
+pillow
 opencv-python-headless
+matplotlib
 seaborn
 scikit-learn
-Pillow
