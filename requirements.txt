@@ -1,6 +1,9 @@
 streamlit==1.31.0
-torch==2.1.2
-torchvision==0.16.2
+
+# PyTorch + torchvision compatible with Python 3.13
+torch==2.9.1
+torchvision==0.15.2
+
 numpy==1.26.4
 pillow
 opencv-python-headless
