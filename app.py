@@ -203,7 +203,7 @@ with tab1:
                 col1, col2 = st.columns([1, 2])
                 
                 with col1:
-                    st.image(image, use_container_width=True)
+                    st.image(image, use_column_width=True)
                     st.caption(f"📁 {uploaded_file.name}")
                     
                     # Grad-CAM
@@ -230,7 +230,7 @@ with tab1:
                                 st.image(
                                     overlay.astype(np.uint8),
                                     caption="🔍 Model Attention (Grad-CAM)",
-                                    use_container_width=True
+                                    use_column_width=True
                                 )
                 
                 with col2:
