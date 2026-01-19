@@ -81,8 +81,8 @@ SeedScout can identify **12 plant species** at seedling stage:
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/seedscout.git
-cd seedscout
+git clone https://github.com/isababale/plant-seedlings-streamlit-app.git
+cd plant-seedlings-streamlit-app
 ```
 
 2. **Install dependencies**
